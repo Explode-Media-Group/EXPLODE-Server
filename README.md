@@ -1,4 +1,8 @@
-# Explode Music Streaming Platform
+<p align="center">
+  <img src="explode.png" alt="Explode Logo" width="25%" height="auto">
+</p>
+
+# <p align="center">Explode Music Streaming Platform</p>
 
 Explode is a federated music streaming platform that allows users to submit and stream music and podcasts. The platform includes an artist portal, user roles system, subscription system, and integrates with Stripe for payments. This repository includes both the frontend and backend components.
 
