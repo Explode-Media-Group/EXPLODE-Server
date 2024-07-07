@@ -4,13 +4,13 @@
 
 # <p align="center">Explode Music Streaming Platform</p>
 
-## Setup
+### Setup 💻
 
 - *Language/Framework:* Node.js with Express.js
 - *Database:* PostgreSQL
 - *Federation Protocol:* ActivityPub
 
-## Dependencies
+### Dependencies ⚠️
 
 - Express
 - PostgreSQL
@@ -21,7 +21,10 @@
 
 Explode is a federated music streaming platform that allows users to submit and stream music and podcasts. The platform includes an artist portal, user roles system, subscription system, and integrates with Stripe for payments. This repository includes both the frontend and backend components.
 
-## Table of Contents
+
+
+
+# Table of Contents 📖
 
 - [Features](#features)
 - [Federated Infrastructure](#federated-infrastructure)
@@ -29,7 +32,8 @@ Explode is a federated music streaming platform that allows users to submit and 
 - [Backend](#backend)
 - [Installation Guide](#installation-guide)
 
-## Features
+
+## Features 🔔
 
 - **Artist Portal**: Artists can submit music and podcasts with title, artist, album, description, image for album art, and tags.
 - **User Roles System**: Manage different user roles such as admin, artist, and listener.
@@ -37,7 +41,10 @@ Explode is a federated music streaming platform that allows users to submit and 
 - **Mobile Friendly**: Optimized for mobile devices.
 - **Music Player**: Features play/pause button, share button, add to playlist button, and tip artist button using Stripe Connect API.
 
-## Federated Infrastructure
+
+
+
+# Federated Infrastructure 👥
 
 Explode is built with a federated infrastructure using ActivityPub, enabling decentralized and distributed networking. This ensures scalability, resilience, and interoperability with other federated services.
 
@@ -61,7 +68,8 @@ ActivityPub is a protocol that Explode uses to achieve federated social networki
 
   4. *Scalability:* Federated networking and ActivityPub support scalability by distributing the load across multiple servers. This architecture adapts well to growing user bases and varying traffic patterns without compromising performance.
 
-## Implementation in Explode
+
+### Implementation in Explode
 
   - *Backend:* The backend of Explode is designed with Node.js and PostgreSQL, incorporating ActivityPub protocols to handle federated interactions such as sharing playlists, following artists, and interacting with content from other federated instances.
   
@@ -69,14 +77,17 @@ ActivityPub is a protocol that Explode uses to achieve federated social networki
 
 By leveraging federated networking and ActivityPub, Explode not only enhances user engagement and content discoverability but also contributes to a more open and interconnected ecosystem of music streaming platforms.
 
-## Frontend
+
+
+
+# Frontend 📱
 
 The frontend of Explode is built using Svelte with SvelteKit for a fast and reactive user experience.
 
-### Technologies
-
+- **Express**
 - **Svelte**: A modern, lightweight framework for building user interfaces.
 - **SvelteKit**: A framework for building fast, server-rendered applications with Svelte.
+
 
 ## Backend
 
@@ -87,7 +98,10 @@ The backend is developed using Node.js and PostgreSQL to handle data storage, us
 - **Node.js**: JavaScript runtime for building scalable network applications.
 - **PostgreSQL**: Advanced open-source relational database for storing and managing data.
 
-## Installation Guide
+
+
+
+# Installation Guide 🚧
 
 Follow these steps to set up the Explode music streaming platform locally.
 
@@ -138,6 +152,7 @@ npx sequelize-cli db:migrate
 npm start
 ```
 
+
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
@@ -165,18 +180,27 @@ VITE_API_URL=http://localhost:3000
 npm run dev
 ```
 
-### Running the Application
+
+
+
+# Running the Application 🏃‍♂️
 
 Once both the backend and frontend servers are running, open your browser and navigate to http://localhost:3000 to access the Explode music streaming platform.
 
-### Contributing
+
+
+
+# Contributing ➕
 
 We welcome contributions from the community. Please read our Contributing Guidelines for more details.
 
-### License
+
+
+
+# License 🪪
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Contact
+# Contact 🗨️
 
 For any inquiries or support, please join [Explode's Discord Community](https://discord.gg/JqKeyyVXa2).
