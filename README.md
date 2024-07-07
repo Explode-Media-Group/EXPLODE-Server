@@ -4,6 +4,9 @@
 
 # <p align="center">Explode Music Streaming Platform SERVER</p>
 
+## [Looking for the EXPLODE-WebApp?](https://github.com/Explode-Media-Group/EXPLODE-WebApp)
+
+
 ### Setup 💻
 
 - *Language/Framework:* Node.js with Express.js
@@ -86,7 +89,6 @@ The backend is developed using Node.js and PostgreSQL to handle data storage, us
 
 
 
-
 # Installation Guide 🚧
 
 Follow these steps to set up the Explode music streaming platform locally.
@@ -100,7 +102,7 @@ Follow these steps to set up the Explode music streaming platform locally.
 ### Clone the Repository
 
 ```
-git clone https://github.com/yourusername/explode.git
+git clone https://github.com/Explode-Media-Group/EXPLODE-Server.git
 cd explode
 ```
 
