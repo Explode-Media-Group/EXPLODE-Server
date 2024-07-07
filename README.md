@@ -2,7 +2,7 @@
   <img src="explode.png" alt="Explode Logo" width="25%" height="auto">
 </p>
 
-# <p align="center">Explode Music Streaming Platform</p>
+# <p align="center">Explode Music Streaming Platform SERVER</p>
 
 ### Setup 💻
 
@@ -28,7 +28,6 @@ Explode is a federated music streaming platform that allows users to submit and 
 
 - [Features](#features)
 - [Federated Infrastructure](#federated-infrastructure)
-- [Frontend](#frontend)
 - [Backend](#backend)
 - [Installation Guide](#installation-guide)
 
@@ -72,21 +71,8 @@ ActivityPub is a protocol that Explode uses to achieve federated social networki
 ### Implementation in Explode
 
   - *Backend:* The backend of Explode is designed with Node.js and PostgreSQL, incorporating ActivityPub protocols to handle federated interactions such as sharing playlists, following artists, and interacting with content from other federated instances.
-  
-  - *Frontend:* The frontend, built with Svelte and SvelteKit, integrates features that allow users to seamlessly navigate between different instances while maintaining a cohesive user experience.
 
 By leveraging federated networking and ActivityPub, Explode not only enhances user engagement and content discoverability but also contributes to a more open and interconnected ecosystem of music streaming platforms.
-
-
-
-
-# Frontend 📱
-
-The frontend of Explode is built using Svelte with SvelteKit for a fast and reactive user experience.
-
-- **Express**
-- **Svelte**: A modern, lightweight framework for building user interfaces.
-- **SvelteKit**: A framework for building fast, server-rendered applications with Svelte.
 
 
 ## Backend
@@ -153,42 +139,6 @@ npm start
 ```
 
 
-### Frontend Setup
-
-1. Navigate to the frontend directory:
-
-```
-cd frontend
-```
-
-2. Install frontend dependencies:
-
-```
-npm install
-```
-
-3. Configure environment variables:
-Create a .env file in the frontend directory with the following variables.
-
-```
-VITE_API_URL=http://localhost:3000
-```
-
-4. Start the frontend server:
-
-```
-npm run dev
-```
-
-
-
-
-# Running the Application 🏃‍♂️
-
-Once both the backend and frontend servers are running, open your browser and navigate to http://localhost:3000 to access the Explode music streaming platform.
-
-
-
 
 # Contributing ➕
 
@@ -200,6 +150,9 @@ We welcome contributions from the community. Please read our Contributing Guidel
 # License 🪪
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
 
 # Contact 🗨️
 
