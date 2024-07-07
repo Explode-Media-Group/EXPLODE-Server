@@ -26,6 +26,34 @@ Explode is a federated music streaming platform that allows users to submit and 
 
 Explode is built with a federated infrastructure using ActivityPub, enabling decentralized and distributed networking. This ensures scalability, resilience, and interoperability with other federated services.
 
+Here's how it works:
+
+### Federated Networking
+
+Federated networking in Explode allows for a distributed architecture where multiple servers (instances) can communicate and share data seamlessly. Each instance of Explode acts as a node in a network, capable of independently managing users, content, and interactions.
+
+### ActivityPub Integration
+
+ActivityPub is a protocol that Explode uses to achieve federated social networking capabilities. It enables instances of Explode to exchange messages and notifications in a standardized way, promoting interoperability and user engagement across different servers.
+
+### Key Features of Federated Networking and ActivityPub in Explode
+
+  1. *Decentralization:* Users can join any instance of Explode and interact with users on other instances seamlessly. This decentralization ensures resilience and reduces dependency on a single server.
+  
+  2. *Interoperability:* ActivityPub allows users on different federated platforms (not just Explode instances) to follow, share, and interact with content from Explode. This opens up possibilities for broader audience reach and community building.
+
+  3. *Privacy and Control:* Users retain control over their data and interactions. They can choose which instances to join and have the flexibility to migrate their accounts without losing their data, fostering trust and user empowerment.
+
+  4. *Scalability:* Federated networking and ActivityPub support scalability by distributing the load across multiple servers. This architecture adapts well to growing user bases and varying traffic patterns without compromising performance.
+
+## Implementation in Explode
+
+  - *Backend:* The backend of Explode is designed with Node.js and PostgreSQL, incorporating ActivityPub protocols to handle federated interactions such as sharing playlists, following artists, and interacting with content from other federated instances.
+  
+  - *Frontend:* The frontend, built with Svelte and SvelteKit, integrates features that allow users to seamlessly navigate between different instances while maintaining a cohesive user experience.
+
+By leveraging federated networking and ActivityPub, Explode not only enhances user engagement and content discoverability but also contributes to a more open and interconnected ecosystem of music streaming platforms.
+
 ## Frontend
 
 The frontend of Explode is built using Svelte with SvelteKit for a fast and reactive user experience.
@@ -62,6 +90,7 @@ cd explode
 ```
 
 ### Backend Setup
+
 1. Navigate to the backend directory:
 
 ```
