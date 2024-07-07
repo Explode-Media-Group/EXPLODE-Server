@@ -4,6 +4,21 @@
 
 # <p align="center">Explode Music Streaming Platform</p>
 
+## Setup
+
+*Language/Framework:* Node.js with Express.js
+*Database:* PostgreSQL
+*Federation Protocol:* ActivityPub
+
+## Dependencies
+
+*express:* Web framework
+*pg:* PostgreSQL client
+*sequelize:* ORM for database interaction
+*passport:* Authentication middleware
+*passport-local:* Local strategy for federated login/signup
+*stripe:* Stripe API for payment processing
+
 Explode is a federated music streaming platform that allows users to submit and stream music and podcasts. The platform includes an artist portal, user roles system, subscription system, and integrates with Stripe for payments. This repository includes both the frontend and backend components.
 
 ## Table of Contents
